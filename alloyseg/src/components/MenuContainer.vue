@@ -1,0 +1,54 @@
+<script>
+</script>
+
+<template>
+    <section>
+        <div class="container menu__container__h1 col-12">
+            <h1 class="display-3">Soluções sem Seguros e<br>Benefícios Personalizados</h1>
+            <div class="d-flex align-items-center">
+                <b-button class="btn-orcamento" bnt="success">Solicite um orçamento</b-button>
+                <a href="#" class="">
+                    <p>Confira mais...</p>
+                </a>
+            </div>
+            <a class="menu__container__h1--arrow" href=""><img src="@/assets/icons/arrow-down-sign-to-navigate.svg"></a>
+        </div>
+    </section>
+</template>
+
+<style scoped>
+.menu__container__h1 {
+  margin-top: 200px;
+}
+
+.menu__container__h1 h1 {
+  color: #fff;
+}
+
+.menu__container__h1 a {
+  text-decoration: none;
+}
+
+.menu__container__h1 a p {
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-orcamento {
+  border-radius: 20px;
+  padding: 5px 30px;
+  background: #16b702;
+}
+
+.btn-orcamento:hover {
+  background: #17b702a7;
+}
+
+.menu__container__h1--arrow img {
+  width: 25px;
+  display: block;
+  margin: 144px auto 0px;
+  padding-bottom: 20px;
+}
+</style>
