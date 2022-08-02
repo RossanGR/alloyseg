@@ -1,13 +1,19 @@
 <script>
 import MenuHeader from './components/MenuHeader.vue'
 import MenuContainer from './components/MenuContainer.vue'
+import QuemSomos from './components/QuemSomos.vue'
+import AreaSolucoes from './components/AreaSolucoes.vue'
+import SectionServicos from './components/SectionServicos.vue'
 
 export default {
   name: 'App',
   components: {
     MenuHeader,
-    MenuContainer
-  }
+    MenuContainer,
+    QuemSomos,
+    AreaSolucoes,
+    SectionServicos
+}
 }
 </script>
 
@@ -18,7 +24,9 @@ export default {
         <MenuContainer />
     </header>
     <main>
-      
+      <QuemSomos/>
+      <AreaSolucoes/>
+      <SectionServicos/>
     </main>
   </div>
 </template>

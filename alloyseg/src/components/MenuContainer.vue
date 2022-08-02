@@ -11,7 +11,7 @@
                     <p>Confira mais...</p>
                 </a>
             </div>
-            <a class="menu__container__h1--arrow" href=""><img src="@/assets/icons/arrow-down-sign-to-navigate.svg"></a>
+            <img class="menu__container__h1--arrow" src="@/assets/icons/arrow-down-sign-to-navigate.svg" alt="seta branca">
         </div>
     </section>
 </template>
@@ -45,7 +45,7 @@
   background: #17b702a7;
 }
 
-.menu__container__h1--arrow img {
+.menu__container__h1--arrow {
   width: 25px;
   display: block;
   margin: 144px auto 0px;
