@@ -5,7 +5,7 @@
     <section>
         <div class="container menu__container__h1 col-12">
             <h1 class="display-3">Soluções sem Seguros e<br>Benefícios Personalizados</h1>
-            <div class="d-flex align-items-center">
+            <div class="d-flex align-items-center container--btn">
                 <b-button class="btn-orcamento" bnt="success">Solicite um orçamento</b-button>
                 <a href="#" class="">
                     <p>Confira mais...</p>
@@ -50,5 +50,13 @@
   display: block;
   margin: 144px auto 0px;
   padding-bottom: 20px;
+}
+@media(max-width:480px){
+  .container--btn{
+    flex-wrap: wrap;
+  }
+  .container--btn .btn-orcamento{
+    width: 100%;
+  }
 }
 </style>

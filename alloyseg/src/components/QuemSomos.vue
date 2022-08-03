@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <section class="container row mx-auto mt-5 align-items-center">
+    <section id="quemsomos" class="container row mx-auto mt-5 align-items-center">
         <article  class="col-12 col-lg-6">
             <h2 class="display-5">Quem <strong class="font-weight-bold">somos</strong></h2>
             <p>Alloy Seguros Corretora LTDA é uma empresa integradora de soluções para seguros e benefícios, que oferece
@@ -19,13 +19,16 @@
                 durante toda a negociação.</p>
             <img class="arrow" src="@/assets/icons/arrow-down-sign-to-navigate-orange.svg" alt="seta laranja">
         </article>
-        <aside class="col-12 col-lg-6" >
-            <img class="col-8 ms-auto d-block" src="@/assets/media/img_1.png" alt="imagem ilustrativa">
+        <aside class="col-12 col-lg-6 img__ilustr" >
+            <img class="col-8 ms-auto d-block " src="@/assets/media/img_1.png" alt="imagem ilustrativa">
         </aside>
     </section>
 </template>
 
 <style scoped>
+#quemsomos{
+    padding-top: 50px;
+}
 h2{
     color: #fb4c05;
     margin-bottom: 50px;
@@ -35,5 +38,13 @@ h2{
     margin: auto;
     width: 25px;
     margin-top: 30px;
+}
+@media(max-width: 991px){
+    .img__ilustr{
+        margin: 80px auto ;
+    }
+    .img__ilustr img{
+        margin: 0 auto ;
+    }
 }
 </style>

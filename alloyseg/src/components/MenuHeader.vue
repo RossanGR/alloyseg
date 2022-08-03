@@ -2,17 +2,17 @@
   <div>
     <div class="container container__header">
       <b-navbar type="dark" class="nav__container" toggleable="lg">
-        <b-navbar-brand href="#"><img src="@/assets/media/logo.svg"></b-navbar-brand>
+        <b-navbar-brand href="index.html"><img src="@/assets/media/logo.svg"></b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <!-- Right aligned nav items -->
         <b-collapse id="nav-collapse" class="justify-content-end" is-nav Right>
           <b-navbar-nav>
-            <b-nav-item class="mx-3 nav__item" ref="#">Quem somos</b-nav-item>
-            <b-nav-item class="mx-3 nav__item" href="#">Seguros</b-nav-item>
-            <b-nav-item class="mx-3 nav__item" href="#">Benefícios</b-nav-item>
-            <b-nav-item class="mx-3 nav__item" href="#">Blog</b-nav-item>
-            <b-nav-item class="mx-3 nav__item" href="#">Contato</b-nav-item>
+            <b-nav-item class="mx-3 nav__item" href="#quemsomos">Quem somos</b-nav-item>
+            <b-nav-item class="mx-3 nav__item" href="#seguros">Seguros</b-nav-item>
+            <b-nav-item class="mx-3 nav__item" href="#servicos">Serviços</b-nav-item>
+            <b-nav-item class="mx-3 nav__item" href="#faq">FAQ</b-nav-item>
+            <b-nav-item class="mx-3 nav__item" href="#contato">Contato</b-nav-item>
           </b-navbar-nav>
 
         </b-collapse>
@@ -51,4 +51,18 @@ img {
   padding: 3px;
 }
 
+@media(max-width: 991px) {
+  .nav__item:first-child {
+    padding-top: 20px;
+  }
+
+  .nav__item:last-child {
+    border: none;
+    padding: 10px 0;
+  }
+
+  .nav__item {
+    padding: 10px 0;
+  }
+}
 </style>

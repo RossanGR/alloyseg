@@ -4,6 +4,9 @@ import MenuContainer from './components/MenuContainer.vue'
 import QuemSomos from './components/QuemSomos.vue'
 import AreaSolucoes from './components/AreaSolucoes.vue'
 import SectionServicos from './components/SectionServicos.vue'
+import AreaForm from './components/AreaForm.vue'
+import AreaFaq from './components/AreaFaq.vue'
+import AreaFooter from './components/AreaFooter.vue'
 
 export default {
   name: 'App',
@@ -12,29 +15,35 @@ export default {
     MenuContainer,
     QuemSomos,
     AreaSolucoes,
-    SectionServicos
-}
+    SectionServicos,
+    AreaForm,
+    AreaFaq,
+    AreaFooter
+  }
 }
 </script>
 
 <template>
   <div id="app">
-    <header>
+    <header class="background--header">
       <MenuHeader />
-        <MenuContainer />
+      <MenuContainer />
     </header>
     <main>
-      <QuemSomos/>
-      <AreaSolucoes/>
-      <SectionServicos/>
+      <QuemSomos />
+      <AreaSolucoes />
+      <SectionServicos />
+      <AreaForm />
+      <AreaFaq />
+      <AreaFooter />
     </main>
   </div>
 </template>
 
 <style>
-header {
+.background--header {
   background-image: url(@/assets/media/home_desk.png);
-  background-position: center top;
+  background-position: center bottom;
   background-repeat: no-repeat;
 }
 
@@ -44,4 +53,18 @@ header {
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
 }
+
+.menu__container__h1--arrow,.arrow {
+  position: relative;
+  animation-name: animation;
+  animation-duration: .75s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animation {
+  0%   { left:0px; bottom:0px;}
+  100% { left:0px; bottom:20px;}
+}
+
 </style>
