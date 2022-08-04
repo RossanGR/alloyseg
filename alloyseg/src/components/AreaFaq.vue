@@ -12,7 +12,7 @@
                         <b-button class="mt-1" block v-b-toggle.accordion-1 variant="info">É possível escolher qualquer seguro e
                             benéfico, de acordo com meu interesse?</b-button>
                     </b-card-header>
-                    <b-collapse id="accordion-1" visible accordion="my-accordion" role="tabpanel">
+                    <b-collapse id="accordion-1"  accordion="my-accordion" role="tabpanel">
                         <b-card-body>
                             <b-card-text class="text-center text--white">Disponibilizamos as melhores condições e
                                 produtos personalizados. Dessa forma, você escolhe seus seguros e benefícios.

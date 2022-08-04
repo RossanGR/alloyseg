@@ -5,7 +5,7 @@
 <template>
     <section id="seguros" class="container row mx-auto mt-5 align-items-center">
         <article class="col-12 col-lg-6">
-            <img class="col-8 mr-auto d-block img__ilustr" src="@/assets/media/img_2.png" alt="imagem ilustrativa">
+            <img class="col-8 mr-auto d-block img__ilustr" src="../assets/img_2.png" alt="imagem ilustrativa">
         </article>
         <aside class="col-12 col-lg-6">
             <p class="h3 subtitulo">Áreas de soluções</p>
@@ -54,6 +54,19 @@ h2 {
     margin: auto;
     width: 25px;
     margin-top: 30px;
+}
+section{
+    position: relative;
+}
+section:after{
+    content: "";
+    width: 5px;
+    height: 150px;
+    background-color:#fb4c05 ;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translateY(100px);
 }
 
 @media(max-width: 991px) {

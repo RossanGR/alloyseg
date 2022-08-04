@@ -13,3 +13,10 @@ Vue.config.productionTip = false
 new Vue({
   render: h => h(App),
 }).$mount('#app')
+
+var circle = document.querySelectorAll("[data-circle]");
+if(window.innerWidth < 994){
+    circle.forEach((element,index)=>{
+        circle[index].classList.remove("circle--before");
+    })
+}

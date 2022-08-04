@@ -2,7 +2,7 @@
   <div>
     <div class="container container__header">
       <b-navbar type="dark" class="nav__container" toggleable="lg">
-        <b-navbar-brand href="index.html"><img src="@/assets/media/logo.svg"></b-navbar-brand>
+        <b-navbar-brand href="index.html"><img src="../assets/logo.svg"></b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <!-- Right aligned nav items -->

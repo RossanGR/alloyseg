@@ -42,10 +42,11 @@ export default {
 
 <style>
 .background--header {
-  background-image: url(@/assets/media/home_desk.png);
+  background-image: url(./assets/home_desk.png);
   background-position: center bottom;
   background-repeat: no-repeat;
 }
+
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -61,7 +62,6 @@ export default {
   animation-direction: alternate-reverse;
   animation-iteration-count: infinite;
 }
-
 @keyframes animation {
   0%   { left:0px; bottom:0px;}
   100% { left:0px; bottom:20px;}

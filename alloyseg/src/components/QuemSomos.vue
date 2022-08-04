@@ -17,10 +17,10 @@
             <p>Nossos canais parceiros, estão em constante aperfeiçoamento são especialistas e qualificados, no
                 relacionamento com o cliente, avaliam os riscos e disponibilizam as melhores oportunidades de seguros
                 durante toda a negociação.</p>
-            <img class="arrow" src="@/assets/icons/arrow-down-sign-to-navigate-orange.svg" alt="seta laranja">
+            <img class="arrow" src="../assets/arrow-down-sign-to-navigate-orange.svg" alt="seta laranja">
         </article>
         <aside class="col-12 col-lg-6 img__ilustr" >
-            <img class="col-8 ms-auto d-block " src="@/assets/media/img_1.png" alt="imagem ilustrativa">
+            <img class="col-8 ms-auto d-block " src="../assets/img_1.png" alt="imagem ilustrativa">
         </aside>
     </section>
 </template>
@@ -38,6 +38,19 @@ h2{
     margin: auto;
     width: 25px;
     margin-top: 30px;
+}
+section{
+    position: relative;
+}
+section:before{
+    content: "";
+    width: 5px;
+    height: 150px;
+    background-color:#fb4c05 ;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translateY(120px);
 }
 @media(max-width: 991px){
     .img__ilustr{

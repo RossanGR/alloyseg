@@ -7,8 +7,8 @@
             <div class="footer container-ultrawide">
               <div class="footer__container">
                   <div class="footer__container__img">
-                      <a href="index.html"><img class="footer__container__img__logo" src="@/assets/media/logo.svg" alt="logo"></a>
-                      <a target="_blank" href="https://alloymit.com/"><img class="footer__container__img__selo" src="@/assets/media/selo-alloypng.png" alt="selo"></a>
+                      <a href="index.html"><img class="footer__container__img__logo" src="../assets/logo.svg" alt="logo"></a>
+                      <a target="_blank" href="https://alloymit.com/"><img class="footer__container__img__selo" src="../assets/selo-alloypng.png" alt="selo"></a>
                   </div>
                   <ul>
                       <li><a href="#quem-somos">Quem somos</a></li>
@@ -44,7 +44,9 @@
 
 <style scoped>
 /* inicio footer*/
-
+a,p{
+    font-style: normal;
+}
 .dados__endereco i{
     display: flex;
     color: #fdaf41;
