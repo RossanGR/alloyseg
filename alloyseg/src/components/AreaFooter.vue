@@ -11,9 +11,11 @@
                       <a target="_blank" href="https://alloymit.com/"><img class="footer__container__img__selo" src="../assets/selo-alloypng.png" alt="selo"></a>
                   </div>
                   <ul>
-                      <li><a href="#quem-somos">Quem somos</a></li>
+                      <li><a href="#quemsomos">Quem somos</a></li>
+                      <li><a href="#seguros">Seguros</a></li>
                       <li><a href="#servicos">Serviços</a></li>
-                      <li><a href="#diferenciais-resultados">Diferenciais e resultados</a></li>
+                      <li><a href="#faq">Faq</a></li>
+                      <li><a href="#contato">Contato</a></li>
                   </ul>
               </div>
               <span id="divisor"></span>
