@@ -4,7 +4,7 @@
 <template>
     <section>
         <div class="container menu__container__h1 col-12">
-            <h1 class="display-3">Soluções sem Seguros e<br>Benefícios Personalizados</h1>
+            <h1 class="display-3">Soluções em Seguros e<br>Benefícios Personalizados</h1>
             <div class="d-flex align-items-center container--btn">
                 <b-button class="btn-orcamento" bnt="success" href="#contato">Solicite um orçamento</b-button>
                 <a href="#quemsomos" >
