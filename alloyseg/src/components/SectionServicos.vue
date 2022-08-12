@@ -2,9 +2,9 @@
 </script>
 
 <template>
-    <div id="servicos" class="background--orange">
+    <div id="solucoes" class="background--orange">
         <section class="container row mx-auto mt-5 align-items-center">
-            <h2 class="text-center display-5 title">Serviços</h2>
+            <h2 class="text-center display-5 title">Soluções</h2>
             <div class="row d-flex align-items-stretch mt-5">
                 <div data-circle="" class="col-12 col-sm-12 col-md-12 my-3 col-lg-3 container__servicos circle--before">
                     <h2 class="subtitle text-center h4">Seguros</h2>

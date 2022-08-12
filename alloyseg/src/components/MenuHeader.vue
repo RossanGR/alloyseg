@@ -10,7 +10,7 @@
           <b-navbar-nav>
             <b-nav-item class="mx-3 nav__item" href="#quemsomos">Quem somos</b-nav-item>
             <b-nav-item class="mx-3 nav__item" href="#seguros">Seguros</b-nav-item>
-            <b-nav-item class="mx-3 nav__item" href="#servicos">Serviços</b-nav-item>
+            <b-nav-item class="mx-3 nav__item" href="#solucoes">Soluções</b-nav-item>
             <b-nav-item class="mx-3 nav__item" href="#faq">FAQ</b-nav-item>
             <b-nav-item class="mx-3 nav__item" href="#contato">Contato</b-nav-item>
           </b-navbar-nav>
@@ -41,9 +41,14 @@ img {
 }
 
 .nav__item:last-child {
-  border: 1px solid red;
+  border: 1px solid #ff4c00;
   border-radius: 25px;
   padding: 0 15px;
+  transition: .3s;
+}
+
+.nav__item:last-child:hover{
+  background: #ff4c00;
 }
 
 .nav__item a {
